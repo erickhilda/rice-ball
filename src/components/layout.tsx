@@ -21,7 +21,7 @@ const Layout = ({ title, children }: Props) => (
 
     <Navbar links={links} />
 
-    <main className="dark dark:bg-slate-900">
+    <main className="dark:bg-slate-900">
       <div className="p-6">{children}</div>
     </main>
   </>

@@ -1,36 +1,36 @@
-import type { NextPage } from 'next'
-import Layout from '../components/layout'
+import type { NextPage } from "next";
+import Layout from "../components/layout";
 
 const Home: NextPage = () => {
   return (
     <Layout>
-      <section className='mt-10'>
-        <h2 className='text-xl font-semibold text-slate-800 dark:text-slate-200'>
+      <section className="mt-10">
+        <h2 className="text-xl font-semibold text-slate-800 dark:text-slate-200">
           Story
         </h2>
 
-        <div className='mt-2'>
-          <p className='text-slate-800 dark:text-slate-200'>
-            &quot;I confess that when this all started, you were like a picture
-            out of focus to me. And it took time for my eyes to adjust to you,
-            to make sense of you, to really recognize you.&quot;
+        <div className="mt-2">
+          <p className="text-slate-800 dark:text-slate-200">
+            “With grace and dignity” he said to himself.
+            <br />
+            After which he tripped and fell.
           </p>
 
           <br />
 
-          <p className='text-sm text-slate-800 dark:text-slate-200'>
+          <p className="text-sm text-slate-800 dark:text-slate-200">
             <a
-              href='https://twosentencestories.com/vision'
-              className='underline'
+              href="https://twosentencestories.com/walking-through-life/"
+              className="underline"
             >
-              Vision
+              Walking through Life
             </a>
             , a two sentence story
           </p>
         </div>
       </section>
     </Layout>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

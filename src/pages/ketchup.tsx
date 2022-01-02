@@ -11,19 +11,19 @@ const Topping: NextPage = () => {
 
         <div className="mt-2">
           <p className="text-slate-800 dark:text-slate-200">
-            &quot;I confess that when this all started, you were like a picture
-            out of focus to me. And it took time for my eyes to adjust to you,
-            to make sense of you, to really recognize you.&quot;
+            Loyal but empty, she sat slumped in the hospital’s chair and
+            watched her mother slip away. For the first time she could remember,
+            she felt like she could finally breathe.
           </p>
 
           <br />
 
           <p className="text-sm text-slate-800 dark:text-slate-200">
             <a
-              href="https://twosentencestories.com/vision"
+              href="https://twosentencestories.com/just-breathe/"
               className="underline"
             >
-              Vision
+              Just Breathe
             </a>
             , a two sentence story
           </p>

@@ -1,34 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img src="public/rice-ball.svg" height="128">
+  <h1 align="center">Rice Ball</h1>
+</p>
 
-## Getting Started
+<p>A minimal Next.js starter template</p>
 
-First, run the development server:
+## Features
+
+- ⚡️ A minimal template using Nextjs 12
+- 🎨 Css utility classes using tailwind
+- 🌗 A lovely day and night theme
+- 📲 PWA configuration by default
+
+## Github Template
+
+[Create a repo from this template](https://github.com/erickhilda/rice-ball/generate)
+
+## Clone to local
+
+if you prefer to do it manually:
 
 ```bash
-npm run dev
-# or
-yarn dev
+npx degit erickhilda/rice-ball my-app
+cd my-app
+yarn or npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Why
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I doing a small project for my interview using react recently, and it feel like a good idea to have a simple starter tamplate. Rather than configure everything from scratch every time you need to create a project.
+the name is Rice Ball because I like rice and I hope you like it too.

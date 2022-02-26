@@ -2,25 +2,11 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { Icon } from "@iconify/react";
+import { useTheme } from "next-themes";
 
 const Navbar = ({ links }: { links: any[] }) => {
   const router = useRouter();
-
-  const [theme, setTheme] = useState(
-    typeof window !== "undefined" ? localStorage.theme : "dark"
-  );
-  const colorTheme = theme === "dark" ? "light" : "dark";
-
-  useEffect(() => {
-    const root = window.document.documentElement;
-
-    root.classList.remove(colorTheme);
-    root.classList.add(theme);
-
-    if (typeof window !== "undefined") {
-      localStorage.setItem("theme", theme);
-    }
-  }, [theme]);
+  const { resolvedTheme, setTheme } = useTheme();
 
   return (
     <header className="py-4 px-6 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
@@ -44,7 +30,7 @@ const Navbar = ({ links }: { links: any[] }) => {
                   </a>
                 </Link>
               ))}
-              {colorTheme === "light" ? (
+              {resolvedTheme === "dark" ? (
                 <Icon
                   icon="heroicons-outline:sun"
                   className="text-slate-200 text-lg"

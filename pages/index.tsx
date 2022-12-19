@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
-import Layout from "../components/layout";
+import Layout from "@/components/layout";
 
-const Topping: NextPage = () => {
+const Home: NextPage = () => {
   return (
     <Layout>
       <section className="mt-10">
@@ -11,19 +11,19 @@ const Topping: NextPage = () => {
 
         <div className="mt-2">
           <p className="text-slate-800 dark:text-slate-200">
-            Loyal but empty, she sat slumped in the hospital’s chair and
-            watched her mother slip away. For the first time she could remember,
-            she felt like she could finally breathe.
+            “With grace and dignity” he said to himself.
+            <br />
+            After which he tripped and fell.
           </p>
 
           <br />
 
           <p className="text-sm text-slate-800 dark:text-slate-200">
             <a
-              href="https://twosentencestories.com/just-breathe/"
+              href="https://twosentencestories.com/walking-through-life/"
               className="underline"
             >
-              Just Breathe
+              Walking through Life
             </a>
             , a two sentence story
           </p>
@@ -33,4 +33,4 @@ const Topping: NextPage = () => {
   );
 };
 
-export default Topping;
+export default Home;
